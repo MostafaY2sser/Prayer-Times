@@ -65,6 +65,3 @@ To contribute to this project, please follow these steps:
     ```bash
     git push origin your-feature-branch
     ```
-
-5. **Open a pull request** on GitHub.
-
