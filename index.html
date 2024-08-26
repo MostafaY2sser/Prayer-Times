@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prayer Times</title>
+
+    <!-- CSS File -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="container">
+    <!-- City + date -->
+    <div class="city-date">
+        <h1 id="city">القاهرة</h1>
+        <div class="allDate">
+            <span  id="dateMelady"></span>
+            <span id="day"></span>
+            <span id="dateHagry"></span>
+        </div>
+    </div>
+
+    <!-- 6 Time -->
+    <div class="box-6">
+        <div class="box">
+            <h3 class="fard">الفجر</h3>
+            <div class="mad"  id="fajr" ></div>
+        </div>
+        <div class="box">
+            <h3 class="fard">الشروق</h3>
+            <div class="mad"  id="shrouk" ></div>
+        </div>
+        <div class="box">
+            <h3 class="fard">الضهر</h3>
+            <div class="mad"  id="dhuhr" ></div>
+        </div>
+        <div class="box">
+            <h3 class="fard">العصر</h3>
+            <div class="mad"  id="asr" ></div>
+        </div>
+        <div class="box">
+            <h3 class="fard">المغرب</h3>
+            <div class="mad"  id="mghrab" ></div>
+        </div>
+        <div class="box">
+            <h3 class="fard">العشاء</h3>
+            <div class="mad"  id="isha" ></div>
+        </div>
+    </div>
+    <div class="change">
+        <select id="citiesName" name="city" id="city-name" title="city">
+        </select>
+    </div>
+</div>
+
+<!-- Axios File  -->
+    <script src="node_modules/axios/dist/axios.min.js"></script>
+
+<!-- Js  File -->
+    <script src="app.js"></script>
+</body>
+</html>
