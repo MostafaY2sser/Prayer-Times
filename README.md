@@ -1,6 +1,6 @@
 # Prayer Times
 
-**Prayer Times** is a web application designed to display daily prayer times for various cities in a simple and user-friendly manner. The app allows users to select a city and dynamically update prayer times.
+**Prayer Times** is a web application designed to display daily prayer times for various cities in a simple and user-friendly manner. The app allows users to select a city and dynamically update prayer times
 
 ## Features
 
